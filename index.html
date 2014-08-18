@@ -16,9 +16,10 @@
 	<style>
 		a button .btn {
 			transition: 0.5s linear;
-			cursor: default;
 		} a button .btn {
 			transition: 0.25s linear;
+		} .btn {
+			cursor: default;
 		} .copy {
 			position: fixed;
 			padding: 5px;
@@ -31,18 +32,6 @@
 	</style>
 </head>
 <body style="margin: 0px; padding: 0px;">
-	<div id="webchat" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="EsperNet IRC" aria-hidden="true">
-		<div class="modal-header">
-			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-			<h3 id="EsperNet IRC">EsperNet webchat</h3>
-		</div>
-		<div class="modal-body">
-		</div>
-		<div class="modal-footer">
-			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-			<h3>Webchat service provided by <a href="//esper.net">EsperNet</a></h3>
-		</div>
-	</div> 
 	<div class="copy btn-primary">&copy; GoldProgramming</div>
 	<a href="#top" style="position: fixed; top: 5px; right: 5px;" class="btn btn-sm btn-primary sansserif"><span class="glyphicon glyphicon-circle-arrow-up"></span><span style="font-family: sans-serif; margin-left: 5px;">Up</span></a>
 	<div class="navbar navbar-inverse navbar-static-top" id="top">
@@ -68,7 +57,7 @@
 							<li><a href="http://github.com/GoldProgramming">GitHub</a></li>
 							<li class="divider"></li>
 							<li class="dropdown-header">Networks</li>
-							<li><a data-toggle="modal" href="" data-target="#webchat">EsperNet IRC</a></li>
+							<li><a href="//webchat.esper.net/?channels=#goldprogramming">EsperNet IRC</a></li>
 						</ul>
 					</li>
 				</ul>
@@ -120,7 +109,7 @@
 					<h3 style="margin-top: 0px;">Alissa</h3>
 					<div class="btn-group">
 						<a href="http://github.com/AlissaSquared" class="btn btn-sm btn-success">GitHub</a>
-						<a href="http://www.programming.ga/" class="btn btn-sm btn-success">Website</a>
+						<a href="http://programming.ga/" class="btn btn-sm btn-success">Website</a>
 						<a href="http://webchat.esper.net/?channels=Alissa" class="btn btn-sm btn-success">IRC</a>
 						<a href="http://computercraft.info/forums2/index.php?/user/13254-/" class="btn btn-sm btn-success">CC Forums</a>
 					</div>
