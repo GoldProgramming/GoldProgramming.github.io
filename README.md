@@ -1,4 +1,4 @@
 GoldProgramming.github.io
 =========================
 
-The GoldProgramming Website! Thanks Death! <3
+The GoldProgramming Website! Thanks Alissa! ~<3
